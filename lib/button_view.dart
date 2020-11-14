@@ -92,7 +92,7 @@ class SignInButton extends StatelessWidget {
                       : 'assets/logos/google_dark.png',
                   package: 'flutter_signin_button',
                 ),
-                height: 36.0,
+                height: iconSize ?? 36.0,
               ),
             ),
           ),
