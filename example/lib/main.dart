@@ -64,7 +64,7 @@ class SignInPage extends StatelessWidget {
           SignInButton(
             Buttons.Facebook,
             onPressed: () {
-              _showButtonPressDialog(context, 'FacebookNew');
+              _showButtonPressDialog(context, 'Facebook');
             },
           ),
           Divider(),
