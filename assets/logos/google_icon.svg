@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>google_icon</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+<!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+ <title>google_icon</title>
+ <desc>Created with Sketch.</desc>
+ <g id="Google-Button" transform="translate(0,18)" fill="none" fill-rule="evenodd">
+  <g id="btn_google_light_normal" transform="translate(-1,-1)">
+   <g id="logo_googleg_48dp" transform="matrix(3.333 0 0 3.333 3 -15)">
+    <path id="Shape" d="m17.64 9.205c0-0.6382-0.05727-1.252-0.1636-1.841h-8.476v3.481h4.844c-0.2086 1.125-0.8427 2.078-1.796 2.716v2.258h2.909c1.702-1.567 2.684-3.874 2.684-6.615z" fill="#4285f4"/>
+    <path d="m9 18c2.43 0 4.467-0.8059 5.956-2.18l-2.909-2.258c-0.8059 0.54-1.837 0.8591-3.048 0.8591-2.344 0-4.328-1.583-5.036-3.71h-3.007v2.332c1.481 2.941 4.525 4.958 8.043 4.958z" fill="#34a853"/>
+    <path d="m3.964 10.71c-0.18-0.54-0.2823-1.117-0.2823-1.71s0.1023-1.17 0.2823-1.71v-2.332h-3.007c-0.6095 1.215-0.9573 2.59-0.9573 4.042 0 1.452 0.3477 2.827 0.9573 4.042z" fill="#fbbc05"/>
+    <path d="m9 3.58c1.321 0 2.508 0.4541 3.44 1.346l2.581-2.581c-1.559-1.452-3.596-2.344-6.022-2.344-3.518 0-6.562 2.017-8.043 4.958l3.007 2.332c0.7077-2.127 2.692-3.71 5.036-3.71z" fill="#ea4335"/>
+    <path d="m0 0h18v18h-18z"/>
+   </g>
+  </g>
+ </g>
+</svg>

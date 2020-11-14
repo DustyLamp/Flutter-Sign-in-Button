@@ -48,6 +48,7 @@ class SignInButtonBuilder extends StatelessWidget {
   final double width;
 
   final double iconSize;
+  final TextStyle style;
 
   /// The constructor is self-explanatory.
   SignInButtonBuilder({
@@ -69,6 +70,7 @@ class SignInButtonBuilder extends StatelessWidget {
     this.height,
     this.width,
     this.iconSize,
+    this.style,
   })  : assert(text != null),
         assert(icon != null || image != null),
         assert(textColor != null),
@@ -120,11 +122,12 @@ class SignInButtonBuilder extends StatelessWidget {
             ),
             Text(
               text,
-              style: TextStyle(
-                color: textColor,
-                fontSize: fontSize,
-                backgroundColor: Color.fromRGBO(0, 0, 0, 0),
-              ),
+              style: style ??
+                  TextStyle(
+                    color: textColor,
+                    fontSize: fontSize,
+                    backgroundColor: Color.fromRGBO(0, 0, 0, 0),
+                  ),
             ),
           ],
         ),
