@@ -119,7 +119,7 @@ class SignInButton extends StatelessWidget {
           image: Padding(
             padding: EdgeInsets.symmetric(horizontal: (iconSize ?? 36) / 2),
             child: SvgPicture.asset(
-              "assets/logos/f_logo.svg",
+              "assets/logos/facebook_logo.svg",
               height: iconSize ?? 36.0,
               width: iconSize ?? 36.0,
             ),
