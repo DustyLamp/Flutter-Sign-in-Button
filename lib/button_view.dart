@@ -89,6 +89,7 @@ class SignInButton extends StatelessWidget {
           image: SvgPicture.asset(
             "assets/logos/google_icon.svg",
             height: iconSize ?? 36.0,
+            width: iconSize ?? 36.0,
           ),
           backgroundColor:
               button == Buttons.Google ? Color(0xFFFFFFFF) : Color(0xFF4285F4),
@@ -115,6 +116,7 @@ class SignInButton extends StatelessWidget {
           image: SvgPicture.asset(
             "assets/logos/f_logo.svg",
             height: iconSize ?? 36.0,
+            width: iconSize ?? 36.0,
           ),
           onPressed: onPressed,
           padding: padding,
