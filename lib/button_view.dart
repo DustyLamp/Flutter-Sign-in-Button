@@ -87,7 +87,7 @@ class SignInButton extends StatelessWidget {
               ? Color.fromRGBO(0, 0, 0, 0.54)
               : Color(0xFFFFFFFF),
           image: Padding(
-            padding: EdgeInsets.symmetric(horizontal: iconSize / 2),
+            padding: EdgeInsets.symmetric(horizontal: (iconSize ?? 36) / 2),
             child: SvgPicture.asset(
               "assets/logos/google_icon.svg",
               height: iconSize ?? 36.0,
@@ -117,7 +117,7 @@ class SignInButton extends StatelessWidget {
           backgroundColor: Color(0xFF1877f2),
           innerPadding: EdgeInsets.zero,
           image: Padding(
-            padding: EdgeInsets.symmetric(horizontal: iconSize / 2),
+            padding: EdgeInsets.symmetric(horizontal: (iconSize ?? 36) / 2),
             child: SvgPicture.asset(
               "assets/logos/f_logo.svg",
               height: iconSize ?? 36.0,
