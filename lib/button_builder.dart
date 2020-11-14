@@ -47,6 +47,8 @@ class SignInButtonBuilder extends StatelessWidget {
   /// width is default to be 1/1.5 of the screen
   final double width;
 
+  final double iconSize;
+
   /// The constructor is self-explanatory.
   SignInButtonBuilder({
     Key key,
@@ -66,6 +68,7 @@ class SignInButtonBuilder extends StatelessWidget {
     this.shape,
     this.height,
     this.width,
+    this.iconSize,
   })  : assert(text != null),
         assert(icon != null || image != null),
         assert(textColor != null),
@@ -136,7 +139,7 @@ class SignInButtonBuilder extends StatelessWidget {
     }
     return Icon(
       icon,
-      size: 20,
+      size: iconSize ?? 20,
       color: this.iconColor,
     );
   }
