@@ -113,7 +113,7 @@ class SignInButton extends StatelessWidget {
           key: ValueKey("Facebook"),
           mini: mini,
           text: text ?? 'Login with Facebook',
-          icon: FontAwesomeIcons.facebook,
+          // icon: FontAwesomeIcons.facebook,
           backgroundColor: Color(0xFF1877f2),
           innerPadding: EdgeInsets.zero,
           image: Padding(
